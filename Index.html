@@ -4,7 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Components of a Digital Environment</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0d0d26; color: #fff; }
+        header { background: #1e1e1e; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; }
+        nav { display: flex; justify-content: center; background: #212121; padding: 15px; }
+        nav a { color: white; text-decoration: none; padding: 15px 20px; font-size: 18px; }
+        nav a:hover { background: #ff0040; border-radius: 5px; }
+        .hero { text-align: center; padding: 50px; background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover; color: white; }
+        .hero h1 { font-size: 48px; margin: 0; color: #ff0040; }
+        .hero p { font-size: 20px; margin-top: 10px; }
+        .container { max-width: 1100px; margin: auto; padding: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: #2a2a5c; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(255, 0, 64, 0.5); text-align: center; }
+        .card h2 { color: #ff0040; }
+        .card p { color: #d4d4f7; }
+        .card img { max-width: 100%; border-radius: 5px; }
+        .card a { display: block; margin-top: 15px; text-decoration: none; color: #ff0040; font-weight: bold; }
+        .card a:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 20px; background: #1e1e1e; color: white; }
+    </style>
 </head>
 <body>
     <header>
